@@ -13,7 +13,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              AI-driven tools for product teams
+              DFB Website
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -21,12 +21,12 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                The Hotel, Restaurant, and Café (HoReCa) industry is a dynamic and expansive sector that provides essential services within the hospitality industry. It focuses on catering to customers' needs for accommodation, dining, and social experiences. 
+                Demand of materials are high in big cities, with abundant consumption level. Expansion and gowth of F&B players are high to promote lifestyle of end customers (individual or businesses).  Just-in-Time fulfillment and rapid delivery from direct vendors or distributors is very critical, thus infrastructure of logistic is fragmented. At the same time, utilizing workforce is another challenge.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
-                  <a
+                  {/* <a
                     className="btn group mb-4 w-full bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="#0"
                   >
@@ -36,21 +36,21 @@ export default function HeroHome() {
                         -&gt;
                       </span>
                     </span>
-                  </a>
+                  </a> */}
                 </div>
                 <div data-aos="fade-up" data-aos-delay={600}>
-                  <a
+                  {/* <a
                     className="btn relative w-full bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
                     href="#0"
                   >
                     Schedule Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1104}
             thumbHeight={576}
@@ -58,7 +58,7 @@ export default function HeroHome() {
             video="videos//video.mp4"
             videoWidth={1920}
             videoHeight={1080}
-          />
+          /> */}
         </div>
       </div>
     </section>

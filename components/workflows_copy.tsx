@@ -165,6 +165,5 @@ export default function Workflows() {
         </div>
       </div>
     </section>
-    
   );
 }
