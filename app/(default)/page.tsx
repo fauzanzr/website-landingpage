@@ -13,6 +13,7 @@ import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
 import Our_Position from "@/components/our_position";
 import Roadmap from "@/components/roadmap";
+import Our_Value from "@/components/our_value";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Our_Position />
       <Features />
       <Roadmap />
+      <Our_Value />
       <Cta />
     </>
   );
