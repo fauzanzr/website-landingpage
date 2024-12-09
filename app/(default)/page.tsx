@@ -9,7 +9,7 @@ import Workflows from "@/components/workflows";
 import Workflows_2 from "@/components/workflows_2";
 import Workflows_3 from "@/components/workflows_3";
 import Features from "@/components/main_issues";
-import Testimonials from "@/components/testimonials";
+import Testimonials from "@/components/raodmap";
 import Cta from "@/components/cta";
 
 export default function Home() {

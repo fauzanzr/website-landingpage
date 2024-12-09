@@ -208,7 +208,7 @@ export default function Features() {
               <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
                 {/* Image */}
                 <Image
-                  className="inline-flex"
+                  className="inline-flex opacity-50"
                   src={WorflowImg01}
                   width={350}
                   height={288}
@@ -216,7 +216,7 @@ export default function Features() {
                 />
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-white text-center">
+                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-center inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
                     Uncertain and unpredictable market demands
                   </h3>
                 </div>
@@ -232,8 +232,8 @@ export default function Features() {
               <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
                 {/* Image */}
                 <Image
-                  className="inline-flex"
-                  src={WorflowImg02}
+                  className="inline-flex opacity-50"
+                  src={WorflowImg01}
                   width={350}
                   height={288}
                   alt="Workflow 02"
@@ -248,8 +248,8 @@ export default function Features() {
                     </span>
                   </div> */}
                   
-                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-white text-center">
-                    Uncertain and unpredictable market demands
+                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-center inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+                    Speed of fulfillment and rapid delivery requirements
                   </h3>
                 </div>
               </div>
@@ -264,15 +264,14 @@ export default function Features() {
               <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
                 {/* Image */}
                 <Image
-                  className="inline-flex"
-                  src={WorflowImg03}
-                  width={350}
+                  className="inline-flex opacity-50"
+                  src={WorflowImg01}
                   height={288}
                   alt="Workflow 03"
                 />
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-white text-center">
+                  <h3 className="mb-1 font-nacelle text-[1.25rem] font-semibold text-center inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
                     Competitive price or tight price war
                   </h3>
                 </div>
