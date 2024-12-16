@@ -62,6 +62,48 @@ export default function Workflows_2() {
               </div>
             </div>
           </div>
+
+          {/* Additional Features */}
+          <div className="mt-16 grid gap-8 md:grid-cols-3" data-aos="fade-up" data-aos-delay="600">
+            {/* Feature 1 */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#3a6e6d]/10 mr-4">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm4.504 8.001h-9.008c-.556 0-1.001.445-1.001 1.001s.445 1.001 1.001 1.001h9.008c.556 0 1.001-.445 1.001-1.001s-.445-1.001-1.001-1.001z"/>
+                  </svg>
+                </div>
+                <h4 className="text-xl font-semibold text-[#3a6e6d]">Systematic Approach</h4>
+              </div>
+              <p className="text-black">Well-defined processes ensure consistent quality and reliability in every transaction.</p>
+            </div>
+
+            {/* Feature 2 */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#3a6e6d]/10 mr-4">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm-1.504 14.001h-1.005v1.001c0 .557-.445 1.002-1.001 1.002-.556 0-1.001-.445-1.001-1.002v-1.001h-1.005c-.556 0-1.001-.445-1.001-1.001s.445-1.001 1.001-1.001h1.005v-1.005c0-.556.445-1.001 1.001-1.001.556 0 1.001.445 1.001 1.001v1.005h1.005c.556 0 1.001.445 1.001 1.001s-.445 1.001-1.001 1.001z"/>
+                  </svg>
+                </div>
+                <h4 className="text-xl font-semibold text-[#3a6e6d]">Efficient Integration</h4>
+              </div>
+              <p className="text-black">Seamless integration between different components of the wholesale ecosystem.</p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#3a6e6d]/10 mr-4">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm4.504 14.001l-3.503-3.503-3.503 3.503c-.393.393-1.031.393-1.424 0-.393-.393-.393-1.031 0-1.424l4.215-4.215c.393-.393 1.031-.393 1.424 0l4.215 4.215c.393.393.393 1.031 0 1.424-.393.393-1.031.393-1.424 0z"/>
+                  </svg>
+                </div>
+                <h4 className="text-xl font-semibold text-[#3a6e6d]">Continuous Optimization</h4>
+              </div>
+              <p className="text-black">Regular improvements based on data analytics and user feedback.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

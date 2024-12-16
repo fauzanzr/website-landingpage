@@ -6,10 +6,12 @@ export default function Workflows() {
       <div className="py-12 md:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="relative mx-auto max-w-3xl pb-12 text-center md:pb-16">
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#3a6e6d,#3a6e6d,#3a6e6d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-5xl">
-              Revolutionizing B2B Wholesale with Tech-Enabled Solutions
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#3a6e6d,#3a6e6d,#3a6e6d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-5xl"
+              data-aos="fade-up">
+              Key Features of the HoReCa Industry
             </h2>
-            <p className="text-lg text-black">
+            <p className="text-lg text-black"
+              data-aos="fade-up">
               Empowering businesses with seamless ordering and efficient inventory management
             </p>
           </div>
@@ -25,8 +27,8 @@ export default function Workflows() {
                   </svg>
                 </div>
               </div>
-              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Direct Connection</h4>
-              <p className="text-black">Connecting wholesalers directly with retailers, eliminating intermediaries and reducing costs.</p>
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Customer-Centric</h4>
+              <p className="text-black">The industry prioritizes customer satisfaction and personalization.</p>
             </div>
 
             {/* 2nd item */}
@@ -38,8 +40,8 @@ export default function Workflows() {
                   </svg>
                 </div>
               </div>
-              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Efficient Operations</h4>
-              <p className="text-black">Streamlining ordering processes and inventory management for improved efficiency.</p>
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Diverse Offerings</h4>
+              <p className="text-black">Catering to a range of preferences, from luxury services to budget-friendly options.</p>
             </div>
 
             {/* 3rd item */}
@@ -51,8 +53,8 @@ export default function Workflows() {
                   </svg>
                 </div>
               </div>
-              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Growth Focus</h4>
-              <p className="text-black">Enabling businesses to focus on growth while we handle the operational complexities.</p>
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Dynamic Trends</h4>
+              <p className="text-black">Continuously influenced by lifestyle trends, technology, and cultural changes.</p>
             </div>
           </div>
         </div>

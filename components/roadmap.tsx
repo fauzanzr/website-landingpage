@@ -57,17 +57,7 @@ export default function Roadmap() {
                 <div className="w-5/12 pl-8"></div>
               </div>
 
-              {/* Item 4 */}
-              <div className="relative flex items-center justify-between" data-aos="fade-up" data-aos-delay="600">
-                <div className="w-5/12 pr-8"></div>
-                <div className="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#3a6e6d] border-4 border-white"></div>
-                <div className="w-5/12 pl-8">
-                  <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-                    <h4 className="text-xl font-semibold text-[#3a6e6d] mb-2">Phase 4: Vertical Integration</h4>
-                    <p className="text-black">Expanding into complementary verticals while maintaining our core focus on wholesale excellence.</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
