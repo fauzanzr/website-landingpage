@@ -1,170 +1,62 @@
-import Image from "next/image";
-import WorflowImg01 from "@/public/images/workflow-01.png";
-import WorflowImg02 from "@/public/images/workflow-02.png";
-import WorflowImg03 from "@/public/images/workflow-03.png";
 import Spotlight from "@/components/spotlight";
 
 export default function Workflows() {
   return (
-    <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="pb-12 md:pb-20">
-          {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                .
-              </span>
-            </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Key Features of the HoReCa Industry
+    <section className="relative">
+      <div className="py-12 md:py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="relative mx-auto max-w-3xl pb-12 text-center md:pb-16">
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#3a6e6d,#3a6e6d,#3a6e6d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-5xl">
+              Revolutionizing B2B Wholesale with Tech-Enabled Solutions
             </h2>
+            <p className="text-lg text-black">
+              Empowering businesses with seamless ordering and efficient inventory management
+            </p>
           </div>
 
-          {/* Spotlight items */}
-          <Spotlight className="group mx-auto grid max-w-sm items-start gap-6 lg:max-w-none lg:grid-cols-3">
-            {/* Card 1 */}
-            <a
-              className="group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 after:hover:opacity-20 before:group-hover:opacity-100"
-              href="#0"
-            >
-              <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                {/* Arrow */}
-                <div
-                  className="absolute right-6 top-6 flex h-8 w-8 items-center justify-center rounded-full border border-gray-700/50 bg-gray-800/65 text-gray-200 opacity-0 transition-opacity group-hover/card:opacity-100"
-                  aria-hidden="true"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={9}
-                    height={8}
-                    fill="none"
-                  >
-                    <path
-                      fill="#F4F4F5"
-                      d="m4.92 8-.787-.763 2.733-2.68H0V3.443h6.866L4.133.767 4.92 0 9 4 4.92 8Z"
-                    />
+          {/* Items */}
+          <div className="grid gap-8 md:grid-cols-3" data-aos="fade-up" data-aos-delay="200">
+            {/* 1st item */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="mb-3">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#3a6e6d]/10">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm-1.504 14.001h-1.005v1.001c0 .557-.445 1.002-1.001 1.002-.556 0-1.001-.445-1.001-1.002v-1.001h-1.005c-.556 0-1.001-.445-1.001-1.001s.445-1.001 1.001-1.001h1.005v-1.005c0-.556.445-1.001 1.001-1.001.556 0 1.001.445 1.001 1.001v1.005h1.005c.556 0 1.001.445 1.001 1.001s-.445 1.001-1.001 1.001zm7.012-3.003c-.556 0-1.001-.445-1.001-1.001s.445-1.001 1.001-1.001h1.005c.556 0 1.001.445 1.001 1.001s-.445 1.001-1.001 1.001h-1.005z" />
                   </svg>
                 </div>
-                {/* Image */}
-                <Image
-                  className="inline-flex"
-                  src={WorflowImg01}
-                  width={350}
-                  height={288}
-                  alt="Workflow 01"
-                />
-                {/* Content */}
-                <div className="p-6">
-                  <div className="mb-3">
-                    <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        1. Customer-Centric
-                      </span>
-                    </span>
-                  </div>
-                  <p className="text-indigo-200/65">
-                  The industry prioritizes customer satisfaction and personalization.
-                  </p>
-                </div>
               </div>
-            </a>
-            {/* Card 2 */}
-            <a
-              className="group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 after:hover:opacity-20 before:group-hover:opacity-100"
-              href="#0"
-            >
-              <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                {/* Arrow */}
-                <div
-                  className="absolute right-6 top-6 flex h-8 w-8 items-center justify-center rounded-full border border-gray-700/50 bg-gray-800/65 text-gray-200 opacity-0 transition-opacity group-hover/card:opacity-100"
-                  aria-hidden="true"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={9}
-                    height={8}
-                    fill="none"
-                  >
-                    <path
-                      fill="#F4F4F5"
-                      d="m4.92 8-.787-.763 2.733-2.68H0V3.443h6.866L4.133.767 4.92 0 9 4 4.92 8Z"
-                    />
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Direct Connection</h4>
+              <p className="text-black">Connecting wholesalers directly with retailers, eliminating intermediaries and reducing costs.</p>
+            </div>
+
+            {/* 2nd item */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="400">
+              <div className="mb-3">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#3a6e6d]/10">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm4.504 14.001h-9.008c-.556 0-1.001-.445-1.001-1.001s.445-1.001 1.001-1.001h9.008c.556 0 1.001.445 1.001 1.001s-.445 1.001-1.001 1.001z" />
                   </svg>
                 </div>
-                {/* Image */}
-                <Image
-                  className="inline-flex"
-                  src={WorflowImg02}
-                  width={350}
-                  height={288}
-                  alt="Workflow 02"
-                />
-                {/* Content */}
-                <div className="p-6">
-                  <div className="mb-3">
-                    <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        2. Diverse Offerings
-                      </span>
-                    </span>
-                  </div>
-                  <p className="text-indigo-200/65">
-                  Catering to a range of preferences, from luxury services to budget-friendly options.
-                  </p>
-                </div>
               </div>
-            </a>
-            {/* Card 3 */}
-            <a
-              className="group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 after:hover:opacity-20 before:group-hover:opacity-100"
-              href="#0"
-            >
-              <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                {/* Arrow */}
-                <div
-                  className="absolute right-6 top-6 flex h-8 w-8 items-center justify-center rounded-full border border-gray-700/50 bg-gray-800/65 text-gray-200 opacity-0 transition-opacity group-hover/card:opacity-100"
-                  aria-hidden="true"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={9}
-                    height={8}
-                    fill="none"
-                  >
-                    <path
-                      fill="#F4F4F5"
-                      d="m4.92 8-.787-.763 2.733-2.68H0V3.443h6.866L4.133.767 4.92 0 9 4 4.92 8Z"
-                    />
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Efficient Operations</h4>
+              <p className="text-black">Streamlining ordering processes and inventory management for improved efficiency.</p>
+            </div>
+
+            {/* 3rd item */}
+            <div className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="600">
+              <div className="mb-3">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#3a6e6d]/10">
+                  <svg className="h-6 w-6 fill-current text-[#3a6e6d]" viewBox="0 0 24 24">
+                    <path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm-4.504 14.001l3.503-3.503 3.503 3.503c.393.393 1.031.393 1.424 0 .393-.393.393-1.031 0-1.424l-4.215-4.215c-.393-.393-1.031-.393-1.424 0l-4.215 4.215c-.393.393-.393 1.031 0 1.424.393.393 1.031.393 1.424 0z" />
                   </svg>
                 </div>
-                {/* Image */}
-                <Image
-                  className="inline-flex"
-                  src={WorflowImg03}
-                  width={350}
-                  height={288}
-                  alt="Workflow 03"
-                />
-                {/* Content */}
-                <div className="p-6">
-                  <div className="mb-3">
-                    <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        3. Dynamic Trends
-                      </span>
-                    </span>
-                  </div>
-                  <p className="text-indigo-200/65">
-                  Continuously influenced by lifestyle trends, technology, and cultural changes.
-                  </p>
-                </div>
               </div>
-            </a>
-          </Spotlight>
+              <h4 className="mb-2 text-xl font-semibold text-[#3a6e6d]">Growth Focus</h4>
+              <p className="text-black">Enabling businesses to focus on growth while we handle the operational complexities.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    
-  );
+  )
 }
